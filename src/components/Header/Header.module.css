@@ -1,0 +1,101 @@
+.headerArea{
+ height: 60px;
+ background-color: #fff;
+ border-bottom: 1px solid #ccc;  
+}
+.headerArea a {
+    text-decoration: none;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    height: 60px;
+}
+.logo{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.logo1,
+.logo2,
+.logo3{
+    font-size: 27px;
+    font-weight: bold;
+}
+.logo1{
+    color: #f00;
+}
+.logo2{
+    color: #0f0;
+}
+.logo3{
+    color: #00f;
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+nav ul,
+nav li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+nav li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav li a,
+nav li button{
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+
+    border: 0;
+    background: none;
+    cursor: pointer;
+    outline: 0;
+}
+nav li a:hover,
+nav li button:hover{
+    color:#999;
+}
+.button{
+    background-color: #ff8100;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 10px;
+}
+.button:hover{
+    background-color: #e57706;
+    color: #fff;
+}
+
+@media (max-width:600px) {
+    .headerArea{
+        height: auto;
+    }
+    .headerArea .container{
+        flex-direction: column;
+        height: auto;
+    }
+    .headerArea .container .logo{
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .headerArea .container nav ul{
+        flex-direction: column;
+        height: auto;
+    }
+    .headerArea .container nav li{
+        margin: 10px 20px;
+    }
+}

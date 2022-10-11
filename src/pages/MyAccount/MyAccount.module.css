@@ -1,0 +1,19 @@
+.topArea .msgPass{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.bottomArea h1{
+    font-size: 27px;
+}
+.bottomArea .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:600px) {
+    .bottomArea h1{
+        margin: 10px;
+    }
+}

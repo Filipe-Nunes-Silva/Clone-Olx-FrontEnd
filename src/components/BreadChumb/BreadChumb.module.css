@@ -1,0 +1,15 @@
+.container{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.container a{
+    display: inline-block;
+    margin-left: 0px 5px;
+    text-decoration: underline;
+    color: #000;
+}
+@media (max-width:600px) {
+    .container{
+        margin: 10px;
+    }
+}

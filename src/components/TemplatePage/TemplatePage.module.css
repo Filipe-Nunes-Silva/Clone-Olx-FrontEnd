@@ -1,0 +1,21 @@
+.pageTitle{
+    font-size: 27px;
+}
+.pageContainer{
+    max-width: 1000px;
+    margin: auto;
+}
+.error{
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffcaca;
+    color:#000;
+    border: 2px solid #ff0000;
+}
+
+@media (max-width:600px) {
+    .pageTitle{
+        margin: 10px;
+    }
+}
