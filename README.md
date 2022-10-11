@@ -24,6 +24,7 @@ Obs: Esse projeto é feito em react.js, então para rodar esse projeto você pre
 - npm install
 
 **2 - Iniciando aplicação:**
-- Use o comando 'npm run dev' para iniciar a aplicação! (Por padrão a aplicação abre em http://localhost:3000/)
+- Use o comando 'npm run dev' para iniciar a aplicação!
+- Por padrão a aplicação abre em http://localhost:3000/
 
 (Totalmente Mobile!)
