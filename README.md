@@ -2,8 +2,7 @@
 
 * **Projeto Frontend de um clone da olx com foco totalmente educacional, contém login/autenticação(jwt) e cadastro/edição de usuarios e anuncios**
 * **Este projeto é apenas o frontend, o back-end encontra-se neste [link](https://github.com/Filipe-Nunes-Silva/Clone-Olx-BackEnd)**
-* **Projeto desenvolvimento em decorrencia do curso de react.js da B7Web**
-* **PROJETO FEITO EM REACT**
+* **PROJETO FEITO EM REACT.js e outras tecnologias**
 
 ## Images do projeto
 ![img1](https://github.com/Filipe-Nunes-Silva/Clone-Olx-FrontEnd/blob/main/img1.png)
